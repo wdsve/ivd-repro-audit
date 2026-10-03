@@ -1,0 +1,7 @@
+mapping,collection,modules,nominal_gene_level,local_fdr
+primary,Hallmark,50,0,0
+primary,KEGG,182,3,0
+primary,Reactome,1322,11,0
+alias-aware,Hallmark,50,0,0
+alias-aware,KEGG,184,3,0
+alias-aware,Reactome,1338,12,0

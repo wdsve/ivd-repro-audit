@@ -1,0 +1,24 @@
+{
+  "unadjusted_spearman": {
+    "shared_ecm_genes": 30,
+    "gse70362_fraction_up": 0.4666666666666667,
+    "gse70362_sign_p": 0.70766764413566,
+    "gse23130_fraction_up": 0.6451612903225806,
+    "gse23130_sign_p": 0.07480639219284035,
+    "ecm_concordance": 0.3333333333333333,
+    "ecm_concordance_p": 0.9786130273714748,
+    "ecm_concordance_p_less": 0.04936857335269489,
+    "ecm_concordance_p_two_sided": 0.09873714670538979
+  },
+  "stratum_adjusted_spearman": {
+    "shared_ecm_genes": 30,
+    "gse70362_fraction_up": 0.5333333333333333,
+    "gse70362_sign_p": 0.42776777595281984,
+    "gse23130_fraction_up": 0.7419354838709677,
+    "gse23130_sign_p": 0.00533692026510832,
+    "ecm_concordance": 0.36666666666666664,
+    "ecm_concordance_p": 0.9506314266473139,
+    "ecm_concordance_p_less": 0.10024421103298742,
+    "ecm_concordance_p_two_sided": 0.20048842206597484
+  }
+}

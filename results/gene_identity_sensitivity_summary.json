@@ -1,0 +1,19 @@
+{
+  "platform_symbols": 22107,
+  "canonical_symbols": 17704,
+  "alias_only_symbols": 1098,
+  "unresolved_symbols": 3305,
+  "ambiguous_alias_keys_removed": 4434,
+  "current_modules_tested": 1554,
+  "alias_modules_tested": 1572,
+  "current_significant_one_cohort": 673,
+  "alias_significant_one_cohort": 692,
+  "current_significant_both": 31,
+  "alias_significant_both": 31,
+  "current_nominal_gene_level": 14,
+  "alias_nominal_gene_level": 15,
+  "current_replicated_fdr": 0,
+  "alias_replicated_fdr": 0,
+  "shared_ecm_genes": 30,
+  "ecm_concordance": 0.23333333333333334
+}

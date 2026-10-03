@@ -1,0 +1,25 @@
+{
+  "cohorts": {
+    "GSE176205": "NP, control vs degeneration, n=9 (3 vs 6)",
+    "GSE70362_NP_I_IV": "NP grade I-IV, n=20"
+  },
+  "gse176205_diagnostics": {
+    "n_genes": 18479,
+    "fraction_up": 0.2558580009740787,
+    "median_effect": -1.0375945734698369,
+    "global_shift": true
+  },
+  "gse176205_centered_diagnostics": {
+    "n_genes": 18479,
+    "fraction_up": 0.48211483305373665,
+    "median_effect": -0.059622355123486966,
+    "global_shift": false
+  },
+  "gse70362_np_diagnostics": {
+    "n_genes": 18479,
+    "fraction_up": 0.4936414308133557,
+    "median_effect": -0.0008347249647068488,
+    "global_shift": false
+  },
+  "interpretation": "Directional NP context only. This is not a third AF severity cohort and does not enter the primary replication gate."
+}

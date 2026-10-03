@@ -1,0 +1,8 @@
+module,n_genes,observed_fraction_up,p_up,p_down,p_two_sided
+ECM remodelling,30,0.4666666666666667,0.82,0.185,0.37
+Inflammation/cytokine,30,0.6333333333333333,0.07,0.935,0.14
+Macrophage/myeloid,19,0.3684210526315789,0.93,0.03,0.06
+Angiogenesis/vascular,18,0.5555555555555556,0.585,0.42,0.84
+Adhesion/cytoskeleton,23,0.6956521739130435,0.1,0.905,0.2
+Apoptosis/autophagy,26,0.5384615384615384,0.625,0.38,0.76
+Immune activation,31,0.5483870967741935,0.565,0.44,0.88

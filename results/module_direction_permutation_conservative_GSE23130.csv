@@ -1,0 +1,8 @@
+module,direction_p_gse23130
+ECM remodelling,0.1
+Inflammation/cytokine,0.66
+Macrophage/myeloid,0.87
+Angiogenesis/vascular,0.33
+Adhesion/cytoskeleton,0.39
+Apoptosis/autophagy,0.39
+Immune activation,0.49

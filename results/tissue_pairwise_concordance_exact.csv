@@ -1,0 +1,2 @@
+cohort_a,cohort_b,same_compartment,same_tissue,same_endpoint_class,n_genes,gene_concordance,gene_concordance_p,rho,comparability_tier
+GSE186542,GSE167199,True,True,True,13441,0.5864147012871066,5.673517232498382e-90,-0.03833459614805231,1

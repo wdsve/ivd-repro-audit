@@ -1,0 +1,13 @@
+{
+  "random_repetitions": 100,
+  "random_gse70362_fraction_up_median": 0.4666666666666667,
+  "random_gse70362_fraction_up_lower": 0.4666666666666667,
+  "random_gse70362_fraction_up_upper": 0.4666666666666667,
+  "random_gse23130_fraction_up_median": 0.7096774193548387,
+  "random_gse23130_fraction_up_lower": 0.6129032258064516,
+  "random_gse23130_fraction_up_upper": 0.8064516129032258,
+  "random_ecm_concordance_median": 0.36666666666666664,
+  "random_ecm_concordance_lower": 0.23333333333333334,
+  "random_ecm_concordance_upper": 0.4841666666666664,
+  "random_ecm_concordance_p_two_sided_median": 0.20048842206597484
+}

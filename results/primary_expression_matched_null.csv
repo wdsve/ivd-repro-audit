@@ -1,0 +1,2 @@
+module,n_genes,empirical_p_greater,empirical_p_less,empirical_p_two_sided,null_median,null_upper_95
+ECM remodelling,30,0.9988002399520096,0.004599080183963208,0.009198160367926415,0.5,0.6333333333333333

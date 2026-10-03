@@ -1,0 +1,12 @@
+{
+  "n_articles": 95,
+  "n_multi_cohort": 79,
+  "n_consistency_language": 71,
+  "n_replication_language": 84,
+  "n_gene_level_concordance_language": 0,
+  "n_fdr": 35,
+  "n_permutation": 9,
+  "n_power": 35,
+  "n_multi_cohort_with_consistency_language": 62,
+  "n_multi_cohort_with_gene_level_concordance_language": 0
+}

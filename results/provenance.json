@@ -1,0 +1,51 @@
+{
+  "generated_utc": "2026-09-21T03:33:02.751292+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "parameters": {
+    "phenotype_permutations": 199,
+    "concordance_permutations": 5000,
+    "donor_bootstrap": 300,
+    "split_half_repetitions": 100
+  },
+  "inputs": {
+    "GSE70362_series_matrix": {
+      "path": "ldh_pipeline\\data\\raw\\GSE70362\\GSE70362_series_matrix.txt.gz",
+      "sha256": "addb3455e187756f44989dbd467be2ac260b295341f52f05ea2693bea78e51b0"
+    },
+    "GSE23130_series_matrix": {
+      "path": "ldh_pipeline\\data\\raw\\GSE23130\\GSE23130_series_matrix.txt.gz",
+      "sha256": "df072273ab20a09327fb5d2f73d04d51f4ca8471c6d1c5030215c4409f397062"
+    },
+    "GSE23130_platform_annotation": {
+      "path": "ldh_pipeline\\data\\raw\\GSE23130\\GPL1352.annot.gz",
+      "sha256": "076b7a8b75393e010340ef23c02bbef2b3f4a249b2c650a674caf2ea4e01e58b"
+    },
+    "human_gene_info": {
+      "path": "ldh_pipeline\\data\\raw\\annotation\\Homo_sapiens.gene_info.gz",
+      "sha256": "ebd0c269305c71bb43a5dc57dadab11805633f8c105986037099cd0855d30eac"
+    },
+    "hallmark": {
+      "path": "ldh_pipeline\\data\\raw\\msigdb\\h.all.v2024.1.Hs.entrez.gmt",
+      "sha256": "fcf3a5471f973874f3c37996dc93a45a9c84edf7d7828bba54a7eb95af53bc45"
+    },
+    "kegg": {
+      "path": "ldh_pipeline\\data\\raw\\msigdb\\c2.cp.kegg_legacy.v2024.1.Hs.entrez.gmt",
+      "sha256": "7374fecc11ecf908e93596b6391f074985af2be2ba2df25dd68bdf2fbd52295d"
+    },
+    "reactome": {
+      "path": "ldh_pipeline\\data\\raw\\msigdb\\c2.cp.reactome.v2024.1.Hs.entrez.gmt",
+      "sha256": "0248ee20cf680b19528d6e28a4f146be4e5f11855ee22138ff817acda82c747d"
+    },
+    "legacy_tissue_effects": {
+      "path": "ldh_pipeline\\data\\results\\reproducibility\\full_effects.csv",
+      "sha256": "2f58ffbe949cb5675aa2061e8829ee059c237379404e04099a47307adb99256a"
+    }
+  },
+  "code": {
+    "run_audit.py": "5a6aae67892970e1487790b9704f588a24dda756e863e6cd49d00850062065cf",
+    "audit.py": "037394fb3af5ed50c6defd1ab14d2177fccaa84f36c33d0c36c93b8ccab7be2d",
+    "core.py": "d3e0d6067fd8cae7e30d59299a07ca2644a982a0404f4969889c6b658dcfba95"
+  }
+}

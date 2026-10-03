@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the derived result tables,
+  please cite the archived release as below.
+title: >-
+  Module-level agreement is not replication: a reporting and
+  reproducibility gate for public human intervertebral disc
+  transcriptomes - companion code
+authors:
+  - family-names: TODO
+    given-names: TODO
+version: v1.0.0
+date-released: "2026-10-03"
+license: MIT
+repository-code: https://github.com/TODO/TODO
+identifiers:
+  - description: Zenodo archive of release v1.0.0
+    type: doi
+    value: 10.5281/zenodo.TODO

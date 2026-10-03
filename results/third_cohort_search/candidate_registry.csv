@@ -1,0 +1,40 @@
+accession,tier,organism,tissue,design,independent_samples,endpoint,platform,verdict,next_action,evidence
+GSE70362,core,human,AF+NP,Thompson grades I-V,48,severity,GPL17810,Current discovery cohort,Use as existing core cohort,Study design
+GSE23130,core,human,AF,histological grades I-V,23,severity,GPL1352,Current replication cohort,Use as existing core cohort,Study design
+GSE17077,C,human,AF,senescent vs non-senescent laser-capture annulus cells,19 samples from 11 donors,cell state,GPL1352,Not a degeneration-severity cohort,Use only for senescence module validation,Official GEO title and sample metadata
+GSE15227,B,human,AF,more vs less degenerative,15,binary degeneration,GPL1352,Same-platform technical control,Check overlap with other Gruber datasets,PMC8927764 Table 1
+GSE176205,B,human,NP,control vs degeneration,9,binary degeneration,GPL20301,Independent NP directional validation,Already downloaded and metadata verified,PRJNA735267
+GSE230808,C,human,NP+AF,healthy vs diseased scRNA-seq,18,cell-state context,not applicable,Donor-level pseudobulk validation,Construct pseudobulk by donor,PMC11584408
+GSE244889,C,human,NP,mild vs severe scRNA-seq,13,severity,not applicable,Pseudobulk severity validation,Construct pseudobulk by donor,PMC11584408
+GSE165722,C,human,NP,progressive degeneration scRNA-seq,8,severity,not applicable,Pseudobulk direction validation,Construct pseudobulk by donor,PMC11703038
+GSE199866,C,human,NP+AF,paired normal/degenerated scRNA-seq,4,paired context,not applicable,Within-person compartment validation,Use only as secondary evidence,PMC10782074
+GSE211407,C,human,IVD,degenerative scRNA-seq,unknown,cell-state context,not applicable,Pseudobulk candidate,Verify donor count and metadata,PMC11571097
+GSE147383,C,human,AF+NP,young/non-degenerated vs aged/degenerated,4,binary context,GPL570,Paired AF/NP technical validation,Use only as compartment control,PMC11006460
+GSE129789,C,human,IVD,Pfirrmann I-IV,16,severity,methylation array,Methylation context only,Do not use for transcriptome replication,Study metadata
+GSE201396,C,human,NP,degenerated patients,5,no clear comparator,RNA-seq,Too small and comparator unclear,Do not use as third cohort,Study metadata
+GSE186542,C,human,NP,early vs advanced,6,severity,RNA-seq,Small existing cohort,Use only as secondary direction check,Study metadata
+GSE34095,C,human,disc,degenerative vs non-degenerative,6,binary degeneration,GPL96,Small legacy cohort,Use only as secondary direction check,Study metadata
+GSE56081,C,human,NP,degenerative vs normal,10,binary degeneration,microarray,Small mRNA/lncRNA dataset,Extract mRNA channel only if needed,Study metadata
+GSE50681,C,human,unknown,5 IDD vs 5 control,10,binary degeneration,unknown,Unverified small cohort,Verify species tissue and platform,PMC10140513
+GSE59485,C,human,NP,unknown,unknown,unknown,unknown,Small NP tissue candidate,Verify sample count and grouping,PMC7732619
+GSE7362,unverified,unknown,unknown,GATA6 high vs low,unknown,unknown,unknown,Unverified candidate,Resolve organism tissue and accession,PMC11781159
+GSE13904,unverified,unknown,unknown,IVDD vs control,unknown,binary degeneration,unknown,Unverified candidate,Resolve organism tissue and accession,PMC11619158
+GSE153761,unverified,human,unknown,merged with blood and tissue datasets,unknown,mixed endpoint,array,Not proven to be a clean tissue cohort,Resolve tissue and sample metadata,PMC11266004
+GSE41883,exclude,human,AF cells,TNF-alpha stimulation,8,experimental stimulation,GPL1352,In-vitro stimulation dataset,Do not use as cohort,PMC5422927
+GSE27494,exclude,human,AF cells,IL-1beta stimulation,8,experimental stimulation,GPL1352,In-vitro stimulation dataset,Do not use as cohort,PMC5422927
+GSE25101,unverified,unknown,unknown,possible duplicate or typo,unknown,unknown,GPL1352,Conflicting description with GSE23130,Resolve accession before use,PMC10475329
+GSE70632,unverified,unknown,unknown,listed only in data availability,unknown,unknown,unknown,Possible candidate,Find primary study methods,PMC10498557
+GSE151090,exclude,human,NP cells,VP vs DMSO in culture,3 patients,treatment,RNA-seq,In-vitro intervention,Do not use as cohort,PMC7770208
+GSE245147,exclude,human,NP cells,3 vs 3 plus passage and drug treatment,6 primary samples,binary/experimental,RNA-seq,Cell-level context only,Do not use as third cohort,Study design
+GSE112216,exclude,human,NP cells,passage 3 experimental vs control,6,experimental,GPL570,In-vitro passage model,Do not use as cohort,Study metadata
+GSE114169,exclude,human,unknown,control vs NTP,8,treatment,array,In-vitro treatment model,Do not use as cohort,Study metadata
+GSE110804,exclude,human,NP cells,HuR-regulated cell data,unknown,cell model,unknown,Cell perturbation dataset,Do not use as cohort,PMC7732619
+E-MTAB-11554,exclude,human,NP,3 IDD vs 3 control,6,miRNA,microarray,Non-coding RNA dataset,Do not use for mRNA replication,PMC9035519
+E-MTAB-15392,exclude,human,fetal NP,notochordal cell proteomics,unknown,proteomics,proteomics,Not a transcriptome cohort,Do not use for RNA replication,PMC12808898
+GSE252383,exclude,mouse,disc,SM/J strain aging,unknown,animal model,array,Mouse model,Do not use for human cohort replication,PMC12017323
+GSE252474,exclude,mouse,disc,SM/J strain scRNA-seq,unknown,animal model,scRNA-seq,Mouse model,Do not use for human cohort replication,PMC12017323
+GSE134955,exclude,mouse,disc,inbred strain aging,unknown,animal model,array,Mouse model,Do not use for human cohort replication,PMC7253061
+GSE188909,exclude,mouse,disc,cGAS-STING model,unknown,animal model,RNA-seq,Mouse model,Do not use for human cohort replication,PMC9235924
+GSE161125,exclude,human,macrophages,M0/M1/M2/Mx polarization,4 treatments,cell model,scRNA-seq,Macrophage cell model,Do not use as IVD cohort,PMC13490779
+GSE290270,exclude,human,NP progenitor cells,hydrogel/exosome intervention,unknown,treatment,miRNA-seq,Intervention study,Do not use as cohort,PMC11961689
+GSE290271,exclude,human,NP progenitor cells,hydrogel/exosome intervention,unknown,treatment,RNA-seq,Intervention study,Do not use as cohort,PMC11961689

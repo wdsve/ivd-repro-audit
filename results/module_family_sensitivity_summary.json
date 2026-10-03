@@ -1,0 +1,55 @@
+{
+  "families": [
+    {
+      "mapping": "primary",
+      "collection": "Hallmark",
+      "modules": 50,
+      "nominal_gene_level": 0,
+      "local_fdr": 0
+    },
+    {
+      "mapping": "primary",
+      "collection": "KEGG",
+      "modules": 182,
+      "nominal_gene_level": 3,
+      "local_fdr": 0
+    },
+    {
+      "mapping": "primary",
+      "collection": "Reactome",
+      "modules": 1322,
+      "nominal_gene_level": 11,
+      "local_fdr": 0
+    },
+    {
+      "mapping": "alias-aware",
+      "collection": "Hallmark",
+      "modules": 50,
+      "nominal_gene_level": 0,
+      "local_fdr": 0
+    },
+    {
+      "mapping": "alias-aware",
+      "collection": "KEGG",
+      "modules": 184,
+      "nominal_gene_level": 3,
+      "local_fdr": 0
+    },
+    {
+      "mapping": "alias-aware",
+      "collection": "Reactome",
+      "modules": 1338,
+      "nominal_gene_level": 12,
+      "local_fdr": 0
+    }
+  ],
+  "overlap": {
+    "nonzero_jaccard_pairs": 243830,
+    "jaccard_median": 0.017391304347826087,
+    "jaccard_p90": 0.09950248756218906,
+    "jaccard_p99": 0.4406779661016949,
+    "jaccard_max": 0.918918918918919,
+    "jaccard_gt_0_5": 1636,
+    "jaccard_gt_0_8": 94
+  }
+}

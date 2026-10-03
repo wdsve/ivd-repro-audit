@@ -1,0 +1,231 @@
+{
+  "cohorts": {
+    "GSE70362_AF_all": 24,
+    "GSE70362_AF_I_IV": 20,
+    "GSE23130_all": 23,
+    "GSE23130_LCM_all": 15
+  },
+  "legacy": {
+    "comparison": "all available samples, tissue-strict but confounded",
+    "cohort_a": "GSE70362",
+    "cohort_b": "GSE23130",
+    "gse70362_ecm_n": 30,
+    "gse70362_ecm_fraction_up": 0.4666666666666667,
+    "gse70362_ecm_median_effect": -0.011118711260792578,
+    "gse70362_ecm_sign_p": 0.70766764413566,
+    "gse23130_ecm_n": 31,
+    "gse23130_ecm_fraction_up": 0.8709677419354839,
+    "gse23130_ecm_median_effect": 0.17259274924471646,
+    "gse23130_ecm_sign_p": 1.6976613551378115e-05,
+    "genome_sign_concordance": 0.5206646021915198,
+    "genome_sign_concordance_p": 4.431431887562382e-08,
+    "genome_sign_concordance_p_less": 0.9999999593029808,
+    "genome_sign_concordance_p_two_sided": 8.862863775124764e-08,
+    "ecm_sign_concordance": 0.4,
+    "ecm_sign_concordance_p": 0.8997557889670215,
+    "ecm_sign_concordance_p_less": 0.1807973040267839,
+    "ecm_sign_concordance_p_two_sided": 0.3615946080535678
+  },
+  "strict": {
+    "comparison": "grade I-IV, annulus fibrosus, LCM-only, adjusted",
+    "cohort_a": "GSE70362",
+    "cohort_b": "GSE23130",
+    "gse70362_ecm_n": 30,
+    "gse70362_ecm_fraction_up": 0.4666666666666667,
+    "gse70362_ecm_median_effect": -0.0066821970509809946,
+    "gse70362_ecm_sign_p": 0.70766764413566,
+    "gse23130_ecm_n": 31,
+    "gse23130_ecm_fraction_up": 0.7741935483870968,
+    "gse23130_ecm_median_effect": 0.2047769354838711,
+    "gse23130_ecm_sign_p": 0.0016634464263915974,
+    "genome_sign_concordance": 0.4924368747022392,
+    "genome_sign_concordance_p": 0.9754581763322409,
+    "genome_sign_concordance_p_less": 0.025443614586798627,
+    "genome_sign_concordance_p_two_sided": 0.050887229173597254,
+    "ecm_sign_concordance": 0.23333333333333334,
+    "ecm_sign_concordance_p": 0.9992845468223183,
+    "ecm_sign_concordance_p_less": 0.00261143967509271,
+    "ecm_sign_concordance_p_two_sided": 0.00522287935018542
+  },
+  "strict_grade_only": {
+    "comparison": "grade I-IV, annulus fibrosus, LCM-only, grade only",
+    "cohort_a": "GSE70362",
+    "cohort_b": "GSE23130",
+    "gse70362_ecm_n": 30,
+    "gse70362_ecm_fraction_up": 0.5,
+    "gse70362_ecm_median_effect": -0.009351060039348387,
+    "gse70362_ecm_sign_p": 0.5722322240471894,
+    "gse23130_ecm_n": 31,
+    "gse23130_ecm_fraction_up": 0.7419354838709677,
+    "gse23130_ecm_median_effect": 0.14120211538461572,
+    "gse23130_ecm_sign_p": 0.00533692026510832,
+    "genome_sign_concordance": 0.4915435921867556,
+    "genome_sign_concordance_p": 0.9860748394079244,
+    "genome_sign_concordance_p_less": 0.014482839898364852,
+    "genome_sign_concordance_p_two_sided": 0.028965679796729704,
+    "ecm_sign_concordance": 0.23333333333333334,
+    "ecm_sign_concordance_p": 0.9992845468223183,
+    "ecm_sign_concordance_p_less": 0.00261143967509271,
+    "ecm_sign_concordance_p_two_sided": 0.00522287935018542
+  },
+  "msigdb": {
+    "n_modules_tested": 1554,
+    "n_significant_one_sided": 673,
+    "n_significant_both": 31,
+    "n_discordant_significant": 0,
+    "n_gene_level_replicated": 14,
+    "n_replicated_fdr": 0,
+    "median_gene_concordance": 0.5,
+    "phenotype_permutations": 199,
+    "concordance_permutations": 5000,
+    "permutation_methods": [
+      "stratified",
+      "freedman_lane",
+      "rotation"
+    ]
+  },
+  "donor_sensitivity": [
+    {
+      "mode": "cluster_bootstrap",
+      "n_replicates": 300,
+      "fraction_up_median": 0.5,
+      "fraction_up_lower": 0.36666666666666664,
+      "fraction_up_upper": 0.6,
+      "concordance_median": 0.3333333333333333,
+      "concordance_lower": 0.2,
+      "concordance_upper": 0.5333333333333333,
+      "effect_rho_median": -0.450055617352614,
+      "effect_rho_lower": -0.6981868743047831,
+      "effect_rho_upper": -0.0032703003337041766
+    },
+    {
+      "mode": "one_sample_per_donor",
+      "n_replicates": 300,
+      "fraction_up_median": 0.5,
+      "fraction_up_lower": 0.4666666666666667,
+      "fraction_up_upper": 0.5333333333333333,
+      "concordance_median": 0.3,
+      "concordance_lower": 0.23333333333333334,
+      "concordance_upper": 0.3333333333333333,
+      "effect_rho_median": -0.4981090100111235,
+      "effect_rho_lower": -0.575083426028921,
+      "effect_rho_upper": -0.4602892102335928
+    }
+  ],
+  "effective_gene_number": [
+    {
+      "cohort": "GSE70362_AF_I_IV",
+      "gene_space": "ECM",
+      "effective_genes": 6.842470672703271
+    },
+    {
+      "cohort": "GSE23130_LCM_all",
+      "gene_space": "ECM",
+      "effective_genes": 5.9055599648777015
+    }
+  ],
+  "primary_expression_matched_null": {
+    "n_genes": 30,
+    "empirical_p_greater": 0.9988002399520096,
+    "empirical_p_less": 0.004599080183963208,
+    "empirical_p_two_sided": 0.009198160367926415,
+    "null_median": 0.5,
+    "null_upper_95": 0.6333333333333333
+  },
+  "primary_weighted_concordance": {
+    "n_genes": 30,
+    "unweighted": 0.23333333333333334,
+    "weighted": 0.24219503262004222,
+    "top_half": 0.26666666666666666,
+    "effect_rho": -0.49454949944382637
+  },
+  "primary_module_score_slopes": [
+    {
+      "cohort": "GSE70362_AF_I_IV",
+      "n_genes": 30,
+      "slope": -0.018549486709298596
+    },
+    {
+      "cohort": "GSE23130_LCM_all",
+      "n_genes": 31,
+      "slope": 0.17290129899592924
+    }
+  ],
+  "cross_half_positive_control": [
+    {
+      "cohort": "GSE70362_AF_I_IV",
+      "n_replicates": 300,
+      "concordance_median": 0.6333333333333333,
+      "concordance_lower": 0.4666666666666667,
+      "concordance_upper": 0.8,
+      "effect_rho_median": 0.3650723025583982
+    },
+    {
+      "cohort": "GSE23130_LCM_all",
+      "n_replicates": 300,
+      "concordance_median": 0.6451612903225806,
+      "concordance_lower": 0.3870967741935484,
+      "concordance_upper": 0.7741935483870968,
+      "effect_rho_median": 0.3798387096774194
+    }
+  ],
+  "power_calibration": [
+    {
+      "true_correlation": 0.0,
+      "mean_concordance": 0.4998066666666667,
+      "power_nominal_n": 0.0442,
+      "power_effective_n": 0.0,
+      "effective_n_genes": 5
+    },
+    {
+      "true_correlation": 0.2,
+      "mean_concordance": 0.5366266666666667,
+      "power_nominal_n": 0.0624,
+      "power_effective_n": 0.0,
+      "effective_n_genes": 5
+    },
+    {
+      "true_correlation": 0.4,
+      "mean_concordance": 0.5740266666666667,
+      "power_nominal_n": 0.1108,
+      "power_effective_n": 0.0,
+      "effective_n_genes": 5
+    },
+    {
+      "true_correlation": 0.6,
+      "mean_concordance": 0.60888,
+      "power_nominal_n": 0.2044,
+      "power_effective_n": 0.0,
+      "effective_n_genes": 5
+    }
+  ],
+  "attenuation_example": {
+    "true_correlation": 0.0,
+    "mean": 0.4998066666666667,
+    "lower_2_5": 0.3333333333333333,
+    "upper_97_5": 0.6666666666666666,
+    "observed_ecm_sign_concordance": 0.23333333333333334,
+    "observed_ecm_effect_rho": -0.49454949944382637,
+    "full_reliability_GSE70362": 0.539161520961976,
+    "full_reliability_GSE23130": 0.580017177211566,
+    "disattenuated_effect_rho": -0.8843616352260382
+  },
+  "pairwise_tissue": {
+    "n_pairs": 15,
+    "median_gene_concordance": 0.494054441260745,
+    "max_gene_concordance": 0.5864147012871066,
+    "min_gene_concordance": 0.38743038981702466
+  },
+  "pairwise_tissue_exact": {
+    "n_pairs": 1,
+    "median_gene_concordance": 0.5864147012871066,
+    "max_gene_concordance": 0.5864147012871066,
+    "min_gene_concordance": 0.5864147012871066
+  },
+  "pairwise_tissue_compartment_matched": {
+    "n_pairs": 3,
+    "median_gene_concordance": 0.42512718425127183,
+    "max_gene_concordance": 0.5143530419880035,
+    "min_gene_concordance": 0.38743038981702466
+  }
+}
