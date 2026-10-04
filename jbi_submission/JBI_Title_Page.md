@@ -4,11 +4,11 @@
 
 **Title:** Module-level agreement is not replication: a reporting and reproducibility gate for public human intervertebral disc transcriptomes
 
-**Authors:** [Author names]
+**Authors:** Zhongyuan Liu
 
 **Affiliations:** [Author affiliations and full postal addresses]
 
-**Corresponding author:** [Name, affiliation, email]
+**Corresponding author:** Zhongyuan Liu, [affiliation], [email]
 
 **Keywords:** reproducibility; transcriptomics; bioinformatics; gene-sets; intervertebral-disc
 

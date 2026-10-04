@@ -98,6 +98,13 @@ The frozen statistical plan is in `docs/analysis_plan_v2.md`.
 
 ## License and citation
 
-Code is released under the MIT License (see `LICENSE`). If you use this code
-or the derived tables, please cite the archived release
-(DOI to be added upon Zenodo archiving; see `CITATION.cff`).
+Code is released under the MIT License (see `LICENSE`). The archived release
+is available on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23133983.svg)](https://doi.org/10.5281/zenodo.23133983)
+
+If you use this code or the derived tables, please cite the archived release
+(see `CITATION.cff`): Liu Z. *Module-level agreement is not replication: a
+reporting and reproducibility gate for public human intervertebral disc
+transcriptomes - companion code* (v1.0.0). Zenodo.
+https://doi.org/10.5281/zenodo.23133983

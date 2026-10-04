@@ -7,13 +7,13 @@ title: >-
   reproducibility gate for public human intervertebral disc
   transcriptomes - companion code
 authors:
-  - family-names: TODO
-    given-names: TODO
+  - family-names: Liu
+    given-names: Zhongyuan
 version: v1.0.0
-date-released: "2026-10-03"
+date-released: "2026-10-04"
 license: MIT
-repository-code: https://github.com/TODO/TODO
+repository-code: https://github.com/wdsve/ivd-repro-audit
 identifiers:
-  - description: Zenodo archive of release v1.0.0
+  - description: Zenodo archive (all versions)
     type: doi
-    value: 10.5281/zenodo.TODO
+    value: 10.5281/zenodo.23133983

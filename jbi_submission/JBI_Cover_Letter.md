@@ -12,4 +12,4 @@ The manuscript fits JBI's emphasis on generalizable methodological lessons for d
 
 Sincerely,
 
-[Corresponding author]
+Zhongyuan Liu
