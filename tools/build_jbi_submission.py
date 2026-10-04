@@ -646,9 +646,9 @@ Public human IVD transcriptomes can support strong module-level signals even whe
 
 **Authors:** Zhongyuan Liu
 
-**Affiliations:** [Author affiliations and full postal addresses]
+**Affiliations:** The First Clinical College of Shandong University of Traditional Chinese Medicine, Jinan, China
 
-**Corresponding author:** Zhongyuan Liu, [affiliation], [email]
+**Corresponding author:** Zhongyuan Liu, The First Clinical College of Shandong University of Traditional Chinese Medicine, Jinan, China; lzy.lui@qq.com
 
 **Keywords:** reproducibility; transcriptomics; bioinformatics; gene-sets; intervertebral-disc
 
